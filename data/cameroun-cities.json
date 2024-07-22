@@ -1,0 +1,83 @@
+[
+    {
+        "city": "Douala",
+        "lat": "4.05",
+        "lng": "29.7",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Littoral"
+        
+    },
+    {
+        "city": "Yaounde",
+        "lat": "3.86",
+        "lng": "11.52",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Centre"
+    },
+    {
+        "city": "Bertoua",
+        "lat": "4.57",
+        "lng": "13.68",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Est"
+    },
+    {
+        "city": "Ebolowa",
+        "lat": "2.91",
+        "lng": "11.15",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Sud"
+    },
+    {
+       "city": "Maroua",
+        "lat": "10.61",
+        "lng": "14.32",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Extrême Nord "
+    },
+    {
+       "city": "Garoua",
+        "lat": "9.30",
+        "lng": "13.39",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Nord"
+    },
+    {
+        "city": "Ngaoundere",
+        "lat": "7.32",
+        "lng": "13.61",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Adamaoua"
+    },
+    {
+        "city": "Bafoussam",
+        "lat": "5.47",
+        "lng": "10.40",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Ouest"
+    },
+    {
+        "city": "Buea",
+        "lat": "4.20",
+        "lng": "9.24",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Sud Ouest"
+    },
+    {
+       "city": "Bamenda",
+        "lat": "5.97",
+        "lng": "10.12",
+        "country": "Cameroun",
+        "iso2": "CMR",
+        "admin_name": "Nord Ouest"
+    }
+]

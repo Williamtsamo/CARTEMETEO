@@ -1,0 +1,221 @@
+.e_nord {
+    fill: rgb(219, 199, 16);
+}
+
+.adamaoua {
+    fill: rgb(175, 136, 242);
+}
+
+.n_ouest {
+    fill: rgb(238, 176, 128);
+}
+
+.nord {
+    fill: rgb(173, 219, 89);
+}
+
+.sud {
+    fill: rgb(121, 222, 141);
+}
+
+.est {
+    fill: rgb(223, 224, 123);
+}
+
+.littoral {
+    fill: rgb(175, 206, 222);
+}
+
+.centre {
+    fill: rgb(136, 213, 213);
+}
+
+.ouest {
+    fill: rgb(201, 169, 99);
+}
+
+.s_ouest {
+    fill: rgb(223, 133, 133);
+}
+
+
+
+
+
+
+
+.map__image {
+    width: 500px;
+    float: left;
+}
+
+
+
+
+
+.map__image path {
+
+    stroke: rgb(23, 145, 78);
+    stroke-width: 3px;
+    transition: fill 0.3s;
+}
+
+.map__image .is-active path {
+
+    fill: #174ab7;
+}
+
+
+
+
+.map__liste {
+    float: right;
+    width: 500px;
+}
+
+.map__liste a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s
+}
+
+
+
+
+.map__liste a.is-active {
+    color: #7d12e2;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.map__temp a.is-active {
+    color: #15b633;
+    background-color: #3d1fb3;
+}
+
+#weatherContainer {
+
+
+
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 1300px;
+    margin-right: -100%;
+    border: 5px solid rgba(97, 95, 95, 0.829);
+    border-radius: 10px;
+}
+
+#iconsContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -10%;
+    transform: translate(-50%, -50%);
+    height: 180px;
+    width: 1290px;
+    border: 2px solid rgb(31, 82, 82);
+    border-radius: 10px;
+}
+
+.icons {
+    display: inline-bock;
+    float: right;
+    height: 140px;
+    width: 120px;
+    margin: 2px;
+    border: 2px solid rgb(48, 47, 47);
+    border-radius: 10px;
+}
+
+.image {
+    height: 50px;
+    width: 100%;
+}
+
+.imgClass {
+    height: 50px;
+    width: 100%;
+}
+
+.weather {
+    margin: 5px;
+    /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold
+}
+
+
+
+.Values {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    margin: 50px;
+
+    /* Centre les éléments horizontalement */
+    /*align-items: center;     Centre les éléments verticalement */
+    /*flex-wrap: wrap;         Permet aux éléments de passer à la ligne suivante si nécessaire */
+}
+
+
+.map {
+
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-top: 50px;
+    flex: 1;
+
+    /* Centre les éléments horizontalement */
+    /*align-items: center;     Centre les éléments verticalement */
+    /*flex-wrap: wrap;         Permet aux éléments de passer à la ligne suivante si nécessaire */
+}
+
+.table {
+    height: 100px;
+    width: 140px;
+    border-collapse: collapse;
+
+}
+
+.icons-link {
+    text-decoration: none;
+    /* Supprime la décoration par défaut des liens */
+
+
+}
+
+.icons-link .icons {
+
+    fill: rgb(43, 16, 219);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Ajoute une transition pour un effet fluide */
+}
+
+.icons-link:hover .icons {
+    transform: scale(1.05);
+    /* Agrandit légèrement l'élément au survol */
+    background-color: #98dc9e;
+    /* Change la couleur de fond au survol */
+}
