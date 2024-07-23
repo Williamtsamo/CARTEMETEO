@@ -9,7 +9,9 @@
 </head>
 
 <body>
+<?php echo '<h1>Bonjour !</h1>'; ?> 
     <div>
+
         <h1 id="para1"> PREVISIONS METEO CAMEROUN AVEC CARTE INTERACTIVE</h1>
         <p>Villes:Douala,Yaounde,Bertoua,Ebolowa,Buea,Bamenda,Bamenda,Maroua,Garoua,Adamaoua</p>
         <form class="form js-search-form">
