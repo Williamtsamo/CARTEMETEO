@@ -60,10 +60,7 @@
     transition: fill 0.3s;
 }
 
-.map__image .is-active path {
 
-    fill: #174ab7;
-}
 
 
 
@@ -79,7 +76,10 @@
     transition: color 0.3s
 }
 
+.map__image .is-active path {
 
+    fill: #174ab7;
+}
 
 
 .map__liste a.is-active {
@@ -218,4 +218,20 @@
     /* Agrandit légèrement l'élément au survol */
     background-color: #98dc9e;
     /* Change la couleur de fond au survol */
+}
+
+body {
+    background-image: url('oiseaux.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    /* Ajustez la hauteur selon vos besoins */
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
 }

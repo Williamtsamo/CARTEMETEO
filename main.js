@@ -30,7 +30,6 @@ paths.forEach(function (path) {
         var id = this.id.replace('region-', '');
         activeArea(id)
 
-
     })
 })
 

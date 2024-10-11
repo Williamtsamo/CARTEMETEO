@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>carte cameroun</title>
 </head>
 
-<body>
+<body >
 <?php echo '<h1>Bonjour !</h1>'; ?> 
+<div class="clock text-success " id="clock">Heure CAMEROUN</div>
+<div>
+  <script src="heure.js" class="text-success-emphasis" ></script>  
+</div>
+
+
+    </div>
     <div>
 
-        <h1 id="para1"> PREVISIONS METEO CAMEROUN AVEC CARTE INTERACTIVE</h1>
-        <p>Villes:Douala,Yaounde,Bertoua,Ebolowa,Buea,Bamenda,Bamenda,Maroua,Garoua,Adamaoua</p>
-        <form class="form js-search-form">
-            <label>
-                Tapez le nom d'une ville :
-                <input type="text" class="js-search-input">
-            </label>
-            <button type="submit">Valider</button>
+        <h1 id="para1"  class=" text-primary "> PREVISIONS METEO CAMEROUN AVEC CARTE INTERACTIVE</h1>
+
+        <h3 class="text-center  text-primary"  >Villes: Douala, Yaoundé, Bertoua, Ebolowa, Buea, Bamenda, Maroua, Garoua, Adamaoua</h3>
+        <form class="form-inline justify-content-center js-search-form">
+            <label class="sr-only" for="cityInput">Tapez le nom d'une ville :</label>
+            <input type="text" class="form-control mb-2 mr-sm-2 js-search-input" id="cityInput" placeholder="Nom de la ville">
+            <button type="submit" class="btn btn-primary mb-2">Valider</button>
         </form>
+        
+        
     </div>
     <div class="map" id="map">
         <div class="container">
@@ -77,7 +86,8 @@
 
 
 
-            <div class="map__liste">
+            <div class="map__liste text-danger">
+                <h3>Liste des regions</h3>
                 <ul id="papa">
 
 
@@ -260,6 +270,10 @@
 
 
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script type="module" src="main.js"></script>
 </body>
 
